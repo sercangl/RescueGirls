@@ -1,0 +1,4 @@
+sceneSetups:
+- path: "Assets/SCR\u0130PTS/Show.unity"
+  isLoaded: 1
+  isActive: 1
