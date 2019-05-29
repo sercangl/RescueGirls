@@ -20,6 +20,7 @@ public class Gun : MonoBehaviour
     public Camera fpsCam;
 
     public Text Ammo;
+    Scoreencontroller sc = new Scoreencontroller();
     // Update is called once per frame
     void Update()
     {
@@ -33,8 +34,8 @@ public class Gun : MonoBehaviour
 
             //     AudioSource1.Play();
             //     AudioSource1.Stop();
-            Flash.Play();
-            Mermi--;
+            
+            
             if (Mermi <= 0)
             {
                 Mermi = 0;
@@ -43,11 +44,14 @@ public class Gun : MonoBehaviour
 
             if (Mermi > 0)
             {
+                Flash.Play();
+                Mermi--;
+              //  sc.decreaseAmmo();
                 Shoot();
                 firing = true;
                 stopFiring = Time.time + coolDown;
             }
-        //    Ammo.text = Mermi.ToString();
+            Ammo.text = Mermi.ToString();
         }
 
         if (Time.time > stopFiring)

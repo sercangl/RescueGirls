@@ -3,8 +3,8 @@ using System.Collections;
 
 public class AtesEtme : MonoBehaviour
 {
-
-    public float mermi, sarjor, sarjorsayi, menzil, hasar1, hasar2;
+    public int mermi = 120;
+    public float  sarjor, sarjorsayi, menzil, hasar1, hasar2;
     public bool ates;
     RaycastHit hit;
   //  public Camera fpsCam;
@@ -13,7 +13,7 @@ public class AtesEtme : MonoBehaviour
     {
 
     }
-
+    //Scoreencontroller sc = new Scoreencontroller();
 
     void Update()
     {
@@ -21,6 +21,7 @@ public class AtesEtme : MonoBehaviour
         {
             ates = true;
             mermi--;
+          //  sc.decreaseAmmo();
         }
 
 

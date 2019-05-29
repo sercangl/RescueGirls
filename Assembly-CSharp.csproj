@@ -67,7 +67,10 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\guardscript.cs" />
     <Compile Include="Assets\healthScript.cs" />
+    <Compile Include="Assets\PlayerScript.cs" />
+    <Compile Include="Assets\References.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -76,6 +79,8 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\ScoreController.cs" />
+    <Compile Include="Assets\Scoreencontroller.cs" />
     <Compile Include="Assets\scr.cs" />
     <Compile Include="Assets\SCRİPTS\AskerScriptleri\asker1.cs" />
     <Compile Include="Assets\SCRİPTS\AskerScriptleri\asker2.cs" />

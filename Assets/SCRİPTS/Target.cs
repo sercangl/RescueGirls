@@ -7,12 +7,12 @@ public class Target : MonoBehaviour {
 
 
     public float health = 50f;
-    //public int score;
-    //public Text scoreText;  
-  //  public ScoreController sc;
+   // public int score;
+   /// public Text scoreText;  
+    public ScoreController sc;
     public void Start()
     {
-      //  sc = GameObject.Find("GM").GetComponent<ScoreController>();
+        sc = GameObject.Find("GM").GetComponent<ScoreController>();
     }
     public void TakeDamage(float amount)
     {
@@ -32,17 +32,13 @@ public class Target : MonoBehaviour {
     void Die()
 
     {
-        //        score += 10;
-        //      scoreText.text = score.ToString();7
+            ///    score += 10;
+          //    scoreText.text = score.ToString();
 
         Destroy(gameObject);
-       // sc.increaseScore();
+        sc.increaseScore();
 
-        if(tag == "Soldier")
-        {
-            SceneManager.LoadScene(6);
-        }
-
+       
     }
 
 }
