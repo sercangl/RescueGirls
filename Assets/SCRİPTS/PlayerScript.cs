@@ -16,11 +16,23 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //References.hp = hp;
-        
+        //  References.hp = hp;
+        ourHealth.text = hp.ToString();
         if (hp <= 0)
         {
-            Application.LoadLevel(5);
+            Application.LoadLevel(0);
         }
     }
-}
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Dusman")
+        {
+            Debug.Log("dusman");
+            GetComponent<PlayerScript>().hp--;
+
+        }
+    }
+
+
+    }

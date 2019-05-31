@@ -15,7 +15,7 @@ public class guardscript : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other)
+ /*   private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
@@ -24,4 +24,5 @@ public class guardscript : MonoBehaviour
 
         }
     }
+    */
 }

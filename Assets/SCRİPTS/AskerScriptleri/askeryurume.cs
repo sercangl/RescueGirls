@@ -51,7 +51,8 @@ public class askeryurume : MonoBehaviour
                 Debug.Log("Dotween başlıyor");
                 DOTween.Sequence()
                   .Append(
-                    transform.DOMove(new Vector3(-6, 0, 17), 5)
+                    transform.DOMoveZ(14, 5)
+                         //transform.DOMove(new Vector3(-6, 0, 17), 5)
                          .SetEase(Ease.Linear)
 
 

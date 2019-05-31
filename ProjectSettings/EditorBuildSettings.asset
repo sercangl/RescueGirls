@@ -9,15 +9,15 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: "Assets/SCR\u0130PTS/InterFace.unity"
+    path: Assets/InterFace.unity
     guid: 1afc5c63b2e141a4583a7c060b2b063d
   - enabled: 1
-    path: "Assets/SCR\u0130PTS/Show.unity"
+    path: Assets/Show.unity
     guid: 171d52c10fc4a514f8bc138666883ec7
   - enabled: 1
-    path: "Assets/SCR\u0130PTS/YourDone.unity"
+    path: Assets/YourDone.unity
     guid: 02d2ca3b071bac5489908dbb20171e64
   - enabled: 1
-    path: "Assets/SCR\u0130PTS/GameOVer.unity"
+    path: Assets/GameOVer.unity
     guid: 882936137ba712b4784a6543eec30d71
   m_configObjects: {}

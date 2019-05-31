@@ -8,10 +8,10 @@ public class kızıkurtarma : MonoBehaviour
 
     public Transform Player;
     public Transform Cube;
-    int MoveSpeed = 2;
-    int MaxDist = 10;
-    int MaxxDist = 100;
-    int MinDist = 2;
+   public  int MoveSpeed = 2;
+   public  int MaxDist = 10;
+ public    int MaxxDist = 100;
+   public int MinDist = 2;
 
 
     Animator k_animator;
